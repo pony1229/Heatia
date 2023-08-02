@@ -48,3 +48,25 @@ height: 1em;
 background-color: #fff;
 animation: flash .8s infinite;
 }
+
+@media (max-width: 768px) {
+  p {
+      font-size: 18px;
+  }
+}
+
+#join-button {
+  opacity: 0; /* 初始透明度 */
+  transition: opacity 1s ease-in-out; /* 轉場效果 */
+  border: 4px solid #fff; /* 白色邊框 */
+  background-color: #000; /* 黑色背景 */
+  color: #fff; /* 白色文字 */
+  padding: 10px 24px; /* 內邊距 */
+  text-align: center; /* 文字置中 */
+  text-decoration: none; /* 無裝飾 */
+  display: inline-block; /* 行內塊級元素 */
+  font-family: 'DotGothic16', sans-serif; /* 字體 */
+  font-size: 24px; /* 字體大小 */
+  margin: 20px 0; /* 外邊距 */
+  cursor: pointer; /* 滑鼠樣式 */
+}
